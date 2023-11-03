@@ -1,0 +1,147 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  margin: right 0px;
+}
+header {
+  display: flex;
+  height: 75px;
+  background-color: rgb(245, 247, 246);
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+label{
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  margin-right: 25px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+
+}
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+nav a:hover {
+  color: rgb(235, 25, 25);
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  height: 35px;
+  background-image: url(https://i.postimg.cc/QNnL1jLJ/pngtree-beautiful-background-of-high-rise-buildings-picture-image-2148726.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+h3{
+  color: whitesmoke;
+}
+article{
+  font-display: flex;
+position: relative; 
+left: 80%;
+}
+
+.slider{
+aspect-ratio: 8/16;
+width: 300px;
+display:flex;
+overflow:scroll;
+position:relative;
+left: 81%;
+}
+
+.slider img{
+  position:relative;
+  right: 7%;
+  object-fit: cover;
+  border-radius: 50px;
+  padding-left: 12px;
+  align-items: self-end;
+}
+div{
+  color:rgb(12, 48, 69);
+}
+
+.footer {
+  height: 50px;
+}
+b{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  align-items: center,center;
+}
+b:hover{
+  color:rgb(235,25,25) ;
+}
+
+main{
+  display:flex;
+
+}
+.Recursos_sporte{
+  display:flex;
+  
+}
+
+.footer-info {
+  display: flex;
+}
+
+.Ubicaciones{
+  flex-direction: column;
+  display:flex;
+  position: relative;
+  left:50%
+  
+  
+
+}
+.Recursos_sporte{
+  display: flex;
+
+}
+section{
+  display: flex;
+  position: relative;
+  margin-top: 0%;
+}
+
+
+
+
+
+
+/* @media (min-width: 768px) {
+    header{
+        flex-direction: column 100;}
+     */
+    
+
+
+
+
+/* @media (min-width: 768px) {
+    header{
+        flex-direction: column 100;}
+    
+    } */
