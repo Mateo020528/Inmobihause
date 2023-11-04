@@ -123,17 +123,31 @@ section{
   display: flex;
   position: relative;
   justify-content: center;
-  bottom: 500px;
+  bottom: 900px;
+  flex-direction:unset;
+  
+  
 }
 details{
     display: flex;
-    /* position: relative;
-    right: 600x; */
+    align-items: center;
+    right: 240px;
     cursor: pointer;
 }
 strong:hover{
     color: rgb(235, 25, 25);
 }
+
+main img{
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-top: 25px;
+  top: 69px;
+  border-radius: 12.5px;
+
+}
+
 
 
 
